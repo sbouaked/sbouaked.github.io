@@ -1,7 +1,4 @@
 # top level stuff you probably don't need to touch
-highlighter: pygments
-rdiscount:
-  extensions: [smart]
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
@@ -15,7 +12,7 @@ baseurl: /
 title: Samir Bouaked
 author: Samir Bouaked
 description: Personal blog and resume
-avatar: profile.jpeg
+avatar: profile.jpg
 email: samir.bouaked@gmail.com
 github: sbouaked # username
 twitter: sbouaked
