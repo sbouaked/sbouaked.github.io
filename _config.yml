@@ -1,6 +1,5 @@
 # top level stuff you probably don't need to touch
 highlighter: pygments
-markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
@@ -13,10 +12,10 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://sbouaked.github.io/
 baseurl: /
-title: Chris Turner
-author: Chris Turner
+title: Samir Bouaked
+author: Samir Bouaked
 description: Personal blog and resume
-avatar: profile.png
+avatar: profile.jpeg
 email: samir.bouaked@gmail.com
 github: sbouaked # username
 twitter: sbouaked
