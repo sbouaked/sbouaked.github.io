@@ -1,15 +1,13 @@
----
-layout: home
----
+--- layout: home ---
 
 <section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h3>Hi! I'm <strong>{{ site.author }}</strong>, Engineer Manager at <a href="http://neocasesoftware.com/">Neocase</a></h3>
-	  <h3>Organizer of <a href="http://humantalks.paris">HumanTalks Paris</a></h3>
-	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
-	  {% include social.html %}
-	</div>
+    <div class="container">
+        <div class="avatar">
+            <img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+        </div>
+        <h3>Hi! I'm <strong>{{ site.author }}</strong>, Engineer Manager at <a href="http://neocasesoftware.com/">Neocase</a></h3>
+        <h3>Organizer of <a href="http://humantalks.paris">HumanTalks Paris</a> and <a href="http://bestofweb.paris">BestOfWeb </a></h3>
+        <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+        {% include social.html %}
+    </div>
 </section>
